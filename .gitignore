@@ -1,0 +1,57 @@
+# Python Virtual Environments
+.venv/
+.venv*/
+venv/
+ENV/
+env/
+backend_api/backend/.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Node.js & Next.js
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+frontend/out/
+build/
+dist/
+.vercel/
+
+# Large Model Weights (>50MB / auto-downloaded on server start)
+backend_api/backend/weights/*.pth
+backend_api/backend/weights/*.caffemodel
+backend_api/backend/gfpgan/weights/
+weights/
+
+# Archives & Temporary files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+backend_api_final.zip
+
+# Large Datasets (DIV2K is 3.7GB, downloaded dynamically via setup_remote.sh)
+data/DIV2K_train_HR/
+data/DIV2K_valid_HR/
+
+# Output images generated during testing
+enhanced_output*.png
+output.png
+
+# Environment variables & secrets
+.env
+.env*.local
+
+# System & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+.vscode/
+.idea/

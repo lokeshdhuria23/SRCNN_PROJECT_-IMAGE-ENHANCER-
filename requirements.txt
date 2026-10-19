@@ -1,0 +1,9 @@
+gradio
+torch
+torchvision
+opencv-python
+numpy
+gfpgan
+realesrgan
+basicsr
+facexlib
